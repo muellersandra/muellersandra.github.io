@@ -18,8 +18,10 @@ div#main-content div#content {
     width: 100%;
 }
 div#main-content div#content div#main {
-    position: relative;
-    margin-right: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
 }
 div#main-content div#content div#sidebar {
     position: absolute;
