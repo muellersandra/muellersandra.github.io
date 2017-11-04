@@ -13,15 +13,15 @@ div#page-header div#header img {
  margin:0 auto;
 }
 
-#content {
+div#main-content div#content {
     position: relative;
     width: 100%;
 }
-#main {
+div#main-content div#content div#main {
     position: relative;
     margin-right: 250px;
 }
-#sidebar {
+div#main-content div#content div#sidebar {
     position: absolute;
     top: 0;
     bottom: 0;
