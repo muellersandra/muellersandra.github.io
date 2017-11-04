@@ -13,23 +13,21 @@ div#page-header div#header img {
  margin:0 auto;
 }
 
-.column {
-    float: left;
+#content {
+    position: relative;
+    width: 100%;
+}
+#main {
+    position: relative;
+    margin-right: 250px;
+}
+#sidebar {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 240px;
 }
 
-/* Left and right column */
-.column.side {
-    width: 25%;
-}
 
-/* Middle column */
-.column.middle {
-    width: 50%;
-}
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
