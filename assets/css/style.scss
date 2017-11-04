@@ -12,3 +12,17 @@ div#page-header div#header img {
  height:188px; /* the height of the logo image */
  margin:0 auto;
 }
+
+.column {
+    float: left;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
