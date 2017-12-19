@@ -7,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' |
+append: site.github.build_revision | relative_url }}">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script> 
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> 
   </head>
   <body>
     <section class="page-header">
@@ -17,7 +26,7 @@
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
    
-        <a href="/" class="nav">About</a> &nbsp;&nbsp; <a href="/blog" class="nav">News</a> &nbsp;&nbsp; <a href="/cv" class="nav">CV</a> 
+        <a href="/" class="nav">About</a> &nbsp;&nbsp; <a href="/news" class="nav">News</a> &nbsp;&nbsp; <a href="/cv" class="nav">CV</a> 
 	    &nbsp;&nbsp; <a href="/publications" class="nav">Publications</a> &nbsp;&nbsp; <a href="/talks" class="nav">Talks</a> 
 	    &nbsp;&nbsp; <a href="/teaching" class="nav">Teaching</a>
       
