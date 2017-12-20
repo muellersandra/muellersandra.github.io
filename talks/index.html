@@ -2,10 +2,15 @@
 layout: default
 title: Talks
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
 
-    
+<img src="/images/talks/TalkKGRC.jpg"
+style="height: 140px;"/> <img src="/images/talks/TalkHamburg.jpg"
+style="height: 140px;"/> <img src="/images/talks/TalkKGRCold.jpg"
+style="height: 140px;"/>
+
+<h1>{{ page.title }}</h1>
+
+	<ul class="posts">
 	  {% for post in site.categories.talk %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a
 	    href="{{ post.url }}" title="{{ post.title }}">{{
@@ -15,3 +20,23 @@ title: Talks
 
 
 	  <h3>Older talks</h3>
+	  <ul>
+	  <li><em>Hamburg, January 18, 2016,</em> <a href="http://www.math.uni-hamburg.de/spag/ml/HSTW2016/index.html">Hamburg Set Theory Workshop 2016</a>, Hybrid Mice with Finitely Many Woodin Cardinals from Determinacy.</li>
+	<li><em>Hamburg, September 23, 2015,</em> DMV-Jahrestagung, Mice with finitely many Woodin cardinals from optimal determinacy hypotheses.</li>
+	<li><em>Bonn, July 06, 2015,</em> Mice with finitely many Woodin cardinals from optimal determinacy hypotheses.</li>
+	<li><em>Vienna, March 05, 2015,&nbsp;</em><a href="http://www.logic.univie.ac.at/2015/Talk_03-05_a.html">KGRC Research Seminar</a>,&nbsp;Mice with finitely many Woodin cardinals from optimal determinacy hypotheses.</li>
+	<li><em>New York, December 12, 2014,</em> <a href="http://nylogic.org/talks/producing-m_n-from-boldface-level-wise-projective-determinacy">NY Logic Set Theory Seminar</a>,&nbsp;Producing $M_n^\#$ from Boldface Level-wise Projective Determinacy.</li>
+	<li><em>Münster, October 21 and 28, 2014,</em> Woodins HOD Conjecture.</li>
+	<li><em>Bedlewo, September 16, 2014,</em> Workshop in Set Theory, Producing Iterable Inner Models with Finitely many Woodin Cardinals from Optimal Determinacy Hypotheses.</li>
+	<li><em>Neubiberg, September 5, 2014,</em> Colloquium Logicum 2014, Producing Iterable Inner Models with Finitely many Woodin Cardinals from Optimal Determinacy Hypotheses.</li>
+	<li><em>Münster, May 19, 2014,</em> Producing $M_n^\#$ from optimal determinacy hypotheses.</li>
+	<li><em>Bonn, March, 2014,</em> INFTY Final Conference, Producing Inner Models with Woodin Cardinals from Projective Determinacy.</li>
+	<li><em>Köln, November, 2013,</em> <a
+	  href="http://www.logic.univie.ac.at/~uhlenbrock/Slides/201311DoktorandenforumStudienstiftung/Vortrag_handout.pdf">Nicht-Beweisbarkeit
+	  und unendliche Spiele.</a></li> 
+	<li><em>Münster, October 28 and November 04, 2013,</em>
+	  Producing $M_n^\#$ from Projective Determinacy.</li> 
+	<li><em>Irvine, July 12, 2013,</em> On a Generalization of a Lemma by Kechris and Solovay to an Inner Model Theoretic Context.</li>
+	<li><em>Tecklenburg, May 02, 2013,</em> <a
+	  href="http://www.logic.univie.ac.at/~uhlenbrock/Slides/201305Tecklenburg/Vortrag_Tecklenburg_handout.pdf">Games in Set Theory.</a></li>
+</ul>

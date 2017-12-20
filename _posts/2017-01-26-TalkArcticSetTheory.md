@@ -3,12 +3,6 @@ layout: post
 title: "Arctic Set Theory Workshop - HOD in $M_n(x,g)$" 
 date: 2017-01-26
 category: talk
-imagesrowone: 
-- image_path: "/images/201701-ArcticSetTheoryWorkshop/P1271879_01.jpg"
-- image_path: "/images/201701-ArcticSetTheoryWorkshop/P1281940_02.jpg"
-imagesrowtwo:
-- image_path: "/images/201701-ArcticSetTheoryWorkshop/P1291959.jpg"
-- image_path: "/images/201701-ArcticSetTheoryWorkshop/P1292010.jpg"
 ---
 
 On January 26th 2017 I gave a talk at the
