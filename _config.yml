@@ -2,3 +2,4 @@ name: Sandra Müller
 theme: jekyll-theme-cayman
 title: [Sandra Müller]
 description: [Set Theory]
+plugins: ['jekyll/scholar']
