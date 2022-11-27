@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Axiomatic Set Theory (SoSe 2018) | Sandra Müller</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Axiomatic Set Theory (SoSe 2018)" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://muellersandra.github.io/teaching/axiomatic-set-theory-sose-2018/" />
+<meta property="og:url" content="https://muellersandra.github.io/teaching/axiomatic-set-theory-sose-2018/" />
+<meta property="og:site_name" content="Sandra Müller" />
+<script type="application/ld+json">
+{"url":"https://muellersandra.github.io/teaching/axiomatic-set-theory-sose-2018/","headline":"Axiomatic Set Theory (SoSe 2018)","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--meta name="theme-color" content="#123073"-->
+    <!--link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'-->
+    <link rel="stylesheet" href="https://muellersandra.github.io/assets/css/style.css">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"> 
+</script>
+<script type="text/javascript"> 
+function toggle(id)
+{
+	div=document.getElementById(id);
+	style=div.style.display;
+	if(style=="block")
+	{
+		if(div.style.setProperty)
+		{
+			div.style.setProperty('display','none','');
+		}
+		else
+		{
+			div.style.setAttribute('display','none');
+		}
+	}
+	else
+	{
+		if(div.style.setProperty)
+		{
+			div.style.setProperty('display','block','');
+		}
+		else
+		{
+			div.style.setAttribute('display','block');
+		}
+	}
+}
+</script>
+
+  </head>
+  <body>
+    <section class="page-header">
+	<div id="header">
+  	<img style="float: left; height: 250px;" src="https://muellersandra.github.io/images/header.jpg" alt="picture" />
+ 	</div> 
+      <h1 class="project-name">Sandra Müller</h1>
+      <h2 class="project-tagline"></h2>
+   
+       
+      
+    </section>
+	
+
+	    <div class="main-content">
+	    	<!--<section id="main-content">-->
+			<h1>Axiomatic Set Theory (SoSe 2018)</h1>
+
+<br>
+
+<!--Times and dates for this lecture will be fixed during a preparatory
+meeting on <strong>March 1st at 12:00</strong> in the lecture room of the Kurt
+Gödel Research Center (Währinger Straße 25, 2nd floor, 02.101, <a
+href="http://www.logic.univie.ac.at/Floor_plan.html">floor
+plan</a>). If you have any questions or will not be able to
+participate in the preparatory meeting, please write me an e-mail. -->
+
+
+The lecture takes place on Thursdays from 11:30am to 1:45pm in the lecture room of the Kurt Gödel Research Center (Währinger Straße 25, 2nd floor, 02.101, <a href="http://www.logic.univie.ac.at/Floor_plan.html">floor plan</a>). 
+<br>
+<br>
+Details about the contents of each lecture can be found <a href="http://www.logic.univie.ac.at/~smueller/VLAxiomaticSetTheory18/ContentsAST18.pdf" rel="noopener" target="_blank">here</a>.
+<br>
+<!--<br>
+Additional handwritten notes:
+<a href="http://www.logic.univie.ac.at/~uhlenbrock/VLIntroMathLogic17/NotesUltrafilter.pdf">How to obtain maximal filters using HMP.</a><br>
+<a href="http://www.logic.univie.ac.at/~uhlenbrock/VLIntroMathLogic17/NotesUltraproducts.pdf">Ultraproducts and the Compactness Theorem.</a>
+<a href="http://www.logic.univie.ac.at/~uhlenbrock/VLIntroMathLogic17/NotesDLOnotKappaCategorical.pdf">DLO is not kappa categorical for uncountable cardinals kappa.</a>
+<br>-->
+<br>
+To pass this class you need to take an oral exam. The duration of each
+exam will be around 30min and the dates for the
+exams in this and next semester are
+<ul> 
+  <li> Thursday June 28, 2018, 11:30 - 15:30, </li>
+  <li> Friday June 29, 2018, 13:00 - 14:30, and </li>
+  <li> Friday July 13, 2018, 15:00 - 17:00. </li>
+  <li> Friday Oct 19, 2018, 14:00 - 16:15. </li>
+  <li> Friday Dec 14, 2018, 14:00 - 16:15. </li>
+  <li> Friday Jan 18, 2019, 14:00 - 16:15. </li>
+</ul>
+To sign up for an exam
+you have to write me an e-mail with your Matrikelnummer and preferred
+date. The time slots for the exams will be assigned on a first come first
+serve basis. 
+<br>
+<br>
+<hr>
+
+<h3>Contents</h3>
+This lecture will be an introduction to set theory, in particular to
+independence proofs. The goal is to establish the independence of the
+continuum hypothesis. We will start from the $ZFC$ axioms and introduce
+ordinals and cardinals. Then we will define Gödel's constructible
+universe $L$ and show that it is a model of $ZFC$ and $GCH$, the generalized
+continuum hypothesis. Furthermore, we will introduce measurable
+cardinals and show that they cannot exist in $L$. If time allows, we
+will discuss variants $L[U]$ of $L$ which allow the existence of a
+measurable cardinal. Finally, we will introduce Cohen's forcing
+technique and show that there is a model of $ZFC$ in which the
+continuum hypothesis does not hold.
+<br>
+<br>
+Some familiarity with the contents of the lecture "Grundzüge der mathematischen
+Logik" (e.g. see <a href="/teaching/grundzuege-2017/">SoSe 2017</a>)
+or "Introduction to mathematical logic" (e.g. see <a
+href="/teaching/introduction-to-mathematical-logic-wise-2017/">WiSe
+2017/18</a>) will be helpful. 
+<br>
+<br>
+<hr>
+
+<h3>Proseminar</h3>
+Vera Fischer and I will offer a Proseminar (Exercise session) for this
+lecture. I strongly recommend to also participate in the
+Proseminar. The Proseminar takes place on Fridays from 1pm to 2:30pm
+in the lecture room of the Kurt Gödel Research Center (Währinger
+Straße 25, 2nd floor, 02.101, <a
+href="http://www.logic.univie.ac.at/Floor_plan.html">floor plan</a>).
+<!-- Times and dates for the Proseminar will also be fixed in
+the preparatory meeting. -->
+
+To be graded for the Proseminar you have to regularly attend and
+present solutions on the board at least two times during the
+semester. To practice your mathematical writing skills, we in addition
+expect you to occasionally submit written solutions for exercises.
+<h4>Exercises</h4>
+<a
+href="http://www.logic.univie.ac.at/~vfischer/set_theory1.pdf">Problem set
+1</a>: 09.03.2018
+<br>
+<a
+href="http://www.logic.univie.ac.at/~vfischer/Exercises_Set_Theory_2.pdf">Problem
+set 2</a>: 17.03.2018
+<br>
+<a
+href="http://www.logic.univie.ac.at/~smueller/VLAxiomaticSetTheory18/Exercises_Set_Theory_3.pdf">Problem
+set 3</a>: 23.03.2018
+<br>
+<a
+href="http://www.logic.univie.ac.at/~smueller/VLAxiomaticSetTheory18/Exercises_Set_Theory_4.pdf">Problem
+set 4</a>: 14.04.2018
+<br>
+<a
+href="http://www.logic.univie.ac.at/~smueller/VLAxiomaticSetTheory18/Exercises_Set_Theory_5.pdf">Problem
+set 5</a>: 20.04.2018
+<br>
+<a
+href="http://www.logic.univie.ac.at/~smueller/VLAxiomaticSetTheory18/Exercises_Set_Theory_6.pdf">Problem
+set 6</a>: 27.04.2018
+<br>
+<a
+href="http://www.logic.univie.ac.at/~smueller/VLAxiomaticSetTheory18/Exercises_Set_Theory_7.pdf">Problem
+set 7</a>: 04.05.2018
+<br>
+<a
+href="http://www.logic.univie.ac.at/~smueller/VLAxiomaticSetTheory18/Exercises_Set_Theory_8.pdf">Problem
+set 8</a>: 11.05.2018
+<br>
+<a
+href="http://www.logic.univie.ac.at/~smueller/VLAxiomaticSetTheory18/Exercises_Set_Theory_9.pdf">Problem
+set 9</a>: 18.05.2018
+<br>
+<br>
+The exercises can also be found <a
+href="http://www.logic.univie.ac.at/~vfischer/Proseminar_SetTheory_S2018.html">here</a>
+and on moodle. 
+<br>
+<br>
+<hr>
+
+<h3>References</h3>
+
+
+<ol class="bibliography"><li><span id="kunen2011set">Kunen, K. (2011). <i>Set Theory</i>. College Publications.</span></li>
+<li><span id="Sch14">Schindler, R. (2014). <i>Set Theory: Exploring Independence and Truth</i>. Springer International Publishing.</span></li>
+<li><span id="jech2006set">Jech, T. (2006). <i>Set Theory: The Third Millennium Edition, revised and expanded</i>. Springer Berlin Heidelberg.</span></li></ol>
+<br>
+
+For further studies I also recommend the following book, but most
+material in this book will be beyond what we will be able to cover
+this semester.
+
+<br>
+<ol class="bibliography"><li><span id="halbeisen2011combinatorial">Halbeisen, L. J. (2011). <i>Combinatorial Set Theory: With a Gentle Introduction to Forcing</i>. Springer London.</span></li></ol>
+			<!--</section>-->
+	    
+	   <!-- <aside class="sidebar small-sidebar right-sidebar">
+		    <h4> Links </h4>
+		     </aside>-->
+		    
+	<footer class="site-footer">
+	       Some links you might be interested in: <a
+	       href="http://boolesrings.org">Booles'Rings</a>, <a
+href="http://www.logic.univie.ac.at/Home.html">KGRC</a>, <a
+	       href="https://ests.wordpress.com">ESTS</a> 
+
+         </footer>
+	    </div>
+	
+	    
+      
+	    
+
+    
+  </body>
+</html>
+
+
+

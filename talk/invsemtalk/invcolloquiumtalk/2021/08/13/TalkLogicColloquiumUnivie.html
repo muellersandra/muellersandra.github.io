@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Logic Colloquium, University of Vienna - The Interplay of Determinacy, Large Cardinals, and Inner Models | Sandra Müller</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Logic Colloquium, University of Vienna - The Interplay of Determinacy, Large Cardinals, and Inner Models" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I was invited to give a talk in the Logic Colloquium of the University of Vienna on March 10, 2022. The Interplay of Determinacy, Large Cardinals, and Inner Models The standard axioms of set theory, Zermelo-Fraenkel set theory with Choice (ZFC), do not suffice to answer all questions in mathematics. While this follows abstractly from Kurt Gödel’s famous incompleteness theorems, we nowadays know numerous concrete examples for such questions. In addition to a large number of problems in set theory, even many problems outside of set theory have been showed to be unsolvable, meaning neither their truth nor their failure can be proven from ZFC. A major part of set theory is devoted to attacking this problem by studying various extensions of ZFC and their properties with the overall goal to identify the “right” axioms for mathematics that settle these problems. Determinacy assumptions are canonical extensions of ZFC that postulate the existence of winning strategies in natural infinite two-player games. Such assumptions are known to enhance sets of real numbers with a great deal of canonical structure. Other natural and well-studied extensions of ZFC are given by the hierarchy of large cardinal axioms. Inner model theory provides canonical models for many large cardinal axioms. Determinacy assumptions, large cardinal axioms, and their consequences are widely used and have many fruitful implications in set theory and even in other areas of mathematics. Many applications, in particular, proofs of consistency strength lower bounds, exploit the interplay of determinacy axioms, large cardinals, and inner models. In this talk I will survey recent developments as well as my contribution to this flourishing area." />
+<meta property="og:description" content="I was invited to give a talk in the Logic Colloquium of the University of Vienna on March 10, 2022. The Interplay of Determinacy, Large Cardinals, and Inner Models The standard axioms of set theory, Zermelo-Fraenkel set theory with Choice (ZFC), do not suffice to answer all questions in mathematics. While this follows abstractly from Kurt Gödel’s famous incompleteness theorems, we nowadays know numerous concrete examples for such questions. In addition to a large number of problems in set theory, even many problems outside of set theory have been showed to be unsolvable, meaning neither their truth nor their failure can be proven from ZFC. A major part of set theory is devoted to attacking this problem by studying various extensions of ZFC and their properties with the overall goal to identify the “right” axioms for mathematics that settle these problems. Determinacy assumptions are canonical extensions of ZFC that postulate the existence of winning strategies in natural infinite two-player games. Such assumptions are known to enhance sets of real numbers with a great deal of canonical structure. Other natural and well-studied extensions of ZFC are given by the hierarchy of large cardinal axioms. Inner model theory provides canonical models for many large cardinal axioms. Determinacy assumptions, large cardinal axioms, and their consequences are widely used and have many fruitful implications in set theory and even in other areas of mathematics. Many applications, in particular, proofs of consistency strength lower bounds, exploit the interplay of determinacy axioms, large cardinals, and inner models. In this talk I will survey recent developments as well as my contribution to this flourishing area." />
+<link rel="canonical" href="https://muellersandra.github.io/talk/invsemtalk/invcolloquiumtalk/2021/08/13/TalkLogicColloquiumUnivie.html" />
+<meta property="og:url" content="https://muellersandra.github.io/talk/invsemtalk/invcolloquiumtalk/2021/08/13/TalkLogicColloquiumUnivie.html" />
+<meta property="og:site_name" content="Sandra Müller" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-08-13T00:00:00+02:00" />
+<script type="application/ld+json">
+{"url":"https://muellersandra.github.io/talk/invsemtalk/invcolloquiumtalk/2021/08/13/TalkLogicColloquiumUnivie.html","headline":"Logic Colloquium, University of Vienna - The Interplay of Determinacy, Large Cardinals, and Inner Models","dateModified":"2021-08-13T00:00:00+02:00","datePublished":"2021-08-13T00:00:00+02:00","description":"I was invited to give a talk in the Logic Colloquium of the University of Vienna on March 10, 2022. The Interplay of Determinacy, Large Cardinals, and Inner Models The standard axioms of set theory, Zermelo-Fraenkel set theory with Choice (ZFC), do not suffice to answer all questions in mathematics. While this follows abstractly from Kurt Gödel’s famous incompleteness theorems, we nowadays know numerous concrete examples for such questions. In addition to a large number of problems in set theory, even many problems outside of set theory have been showed to be unsolvable, meaning neither their truth nor their failure can be proven from ZFC. A major part of set theory is devoted to attacking this problem by studying various extensions of ZFC and their properties with the overall goal to identify the “right” axioms for mathematics that settle these problems. Determinacy assumptions are canonical extensions of ZFC that postulate the existence of winning strategies in natural infinite two-player games. Such assumptions are known to enhance sets of real numbers with a great deal of canonical structure. Other natural and well-studied extensions of ZFC are given by the hierarchy of large cardinal axioms. Inner model theory provides canonical models for many large cardinal axioms. Determinacy assumptions, large cardinal axioms, and their consequences are widely used and have many fruitful implications in set theory and even in other areas of mathematics. Many applications, in particular, proofs of consistency strength lower bounds, exploit the interplay of determinacy axioms, large cardinals, and inner models. In this talk I will survey recent developments as well as my contribution to this flourishing area.","mainEntityOfPage":{"@type":"WebPage","@id":"https://muellersandra.github.io/talk/invsemtalk/invcolloquiumtalk/2021/08/13/TalkLogicColloquiumUnivie.html"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--meta name="theme-color" content="#123073"-->
+    <!--link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'-->
+    <link rel="stylesheet" href="https://muellersandra.github.io/assets/css/style.css">
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"> 
+</script>
+<script type="text/javascript"> 
+function toggle(id)
+{
+	div=document.getElementById(id);
+	style=div.style.display;
+	if(style=="block")
+	{
+		if(div.style.setProperty)
+		{
+			div.style.setProperty('display','none','');
+		}
+		else
+		{
+			div.style.setAttribute('display','none');
+		}
+	}
+	else
+	{
+		if(div.style.setProperty)
+		{
+			div.style.setProperty('display','block','');
+		}
+		else
+		{
+			div.style.setAttribute('display','block');
+		}
+	}
+}
+</script>
+
+  </head>
+  <body>
+    <section class="page-header">
+	<div id="header">
+  	<img style="float: left; height: 250px;" src="https://muellersandra.github.io/images/header.jpg" alt="picture" />
+ 	</div> 
+      <h1 class="project-name">Sandra Müller</h1>
+      <h2 class="project-tagline"></h2>
+   
+       
+      
+    </section>
+	
+
+	    <div class="main-content">
+	    	<!--<section id="main-content">-->
+			<h1></h1>
+<h3></h3>
+
+<div class="post">
+  <p>I was invited to give a talk in the <a href="https://mathematik.univie.ac.at/forschung/seminare/seminars-at-the-kgrc/logic-colloquium/?no_cache=1">Logic Colloquium</a> of the University of Vienna on March 10, 2022.</p>
+
+<p><em>The Interplay of Determinacy, Large Cardinals, and Inner Models</em></p>
+
+<p>The standard axioms of set theory, Zermelo-Fraenkel set theory with Choice (ZFC), do not suffice to answer all questions in mathematics. While this follows abstractly from Kurt Gödel’s famous incompleteness theorems, we nowadays know numerous concrete examples for such questions.
+In addition to a large number of problems in set theory, even many problems outside of set theory have been showed to be unsolvable, meaning neither their truth nor their failure can be proven from ZFC. A major part of set theory is devoted to attacking this problem by studying various extensions of ZFC and their properties with the overall goal to identify the “right” axioms for mathematics that settle these problems.</p>
+
+<p>Determinacy assumptions are canonical extensions of ZFC that postulate the existence of winning strategies in natural infinite two-player games. Such assumptions are known to enhance sets of real numbers with a great deal of canonical structure. Other natural and well-studied extensions of ZFC are given by the hierarchy of large cardinal axioms. Inner model theory provides canonical models for many large cardinal axioms. Determinacy assumptions, large cardinal axioms, and their consequences are widely used and have many fruitful implications in set theory and even in other areas of mathematics. Many applications, in particular, proofs of consistency strength lower bounds, exploit the interplay of determinacy axioms, large cardinals, and inner models. In this talk I will survey recent developments as well as my contribution to this flourishing area.</p>
+
+
+</div>
+
+			<!--</section>-->
+	    
+	   <!-- <aside class="sidebar small-sidebar right-sidebar">
+		    <h4> Links </h4>
+		     </aside>-->
+		    
+	<footer class="site-footer">
+	       Some links you might be interested in: <a
+	       href="http://boolesrings.org">Booles'Rings</a>, <a
+href="http://www.logic.univie.ac.at/Home.html">KGRC</a>, <a
+	       href="https://ests.wordpress.com">ESTS</a> 
+
+         </footer>
+	    </div>
+	
+	    
+      
+	    
+
+    
+  </body>
+</html>
+
+
+
